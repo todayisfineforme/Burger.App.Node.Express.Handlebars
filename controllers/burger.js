@@ -5,15 +5,15 @@ exports.read = async (req,res) =>{
     await burger.selectAll();
     const burger_list = await burger.getLiteral();
     const hbsObj = { burgers: burger_list };
-    res.render("index",hbsObj);
-}
+    res.render("index", hbsObj);
+} 
 exports.create = async (req,res) =>{
     const burger = new hamburger(req.body);
     await burger.insert();
     const burger_list = await burger.getLiteral();
     res.json(burger_list);
 }
-exports.update = async (res,req) =>{
+exports.update = async (req,res) =>{
     const burgerID = req.params.id;
     const burger = new hamburger();
     burger.merge(req.body);

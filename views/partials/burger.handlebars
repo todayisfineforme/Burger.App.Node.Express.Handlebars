@@ -1,0 +1,21 @@
+<div class="card text-white bg-dark text-center mb-3">
+    <div class="card-header">
+        <h3 class="card-title">{{burger_name}}</h3>
+    </div>
+    <div class="card-body">
+        <button class="btn btn-secondary devourBtn" data-id="{{id}}" data-devoured="{{devoured}}">
+		    {{#if devoured}}
+                Slam that burger!
+            {{else}}
+                order another burger to slam!
+            {{/if}}
+        </button>
+        <button class="btn btn-secondary delete" data-id="{{id}}">
+            {{#if devoured}} 
+                i do not wish to slam this burger 
+            {{else}} 
+                consider it slammed 
+            {{/if}}
+        </button>
+    </div>
+</div>
