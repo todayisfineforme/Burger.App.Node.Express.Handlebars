@@ -2,10 +2,6 @@
 
 A Frontend application that allows the user to keep track of what burgers that they want to order, and which burgers that they have already slammed. allows user to reorder slammed burgers, or delete slammed burgers.
 
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
 ## Installation
 
 Use the node package manager [npm](https://nodejs.org/en/) to install foobar.
