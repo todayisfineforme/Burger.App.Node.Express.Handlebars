@@ -1,6 +1,6 @@
 # Burger Tracking App
 
-demo of site functionality is in site demo dir
+A Frontend application that allows the user to keep track of what burgers that they want to order, and which burgers that they have already slammed. allows user to reorder slammed burgers, or delete slammed burgers.
 
 # Foobar
 
