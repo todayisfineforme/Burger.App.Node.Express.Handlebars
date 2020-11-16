@@ -12,9 +12,13 @@ npm install
 
 ## Usage
 
+have a MySQL server running
+
 ```node.js
 npm start
 ```
+
+then navigate to 'localhost:9000' in your browser
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
