@@ -4,10 +4,10 @@ A Frontend application that allows the user to keep track of what burgers that t
 
 ## Installation
 
-Use the node package manager [npm](https://nodejs.org/en/) to install foobar.
+Use the node package manager [npm](https://nodejs.org/en/) to install the Burger Tracking App.
 
 ```bash
-npm install foobar
+npm install
 ```
 
 ## Usage
