@@ -1,4 +1,4 @@
-# homework.node.express.handlebars.nathan.hall
+# Burger Tracking App
 
 demo of site functionality is in site demo dir
 
